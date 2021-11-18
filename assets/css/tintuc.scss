@@ -1,0 +1,47 @@
+main{
+	div{
+		div{
+			ul{
+				li{
+					list-style:none;
+					float:left;
+					margin-right:5px;
+					a{
+						text-decoration: none;
+						&:hover {
+        					color:yellow;
+    					}
+					}
+				}
+			}
+		}
+		div{
+			div{
+				h3{
+				}
+				div{
+					div{
+						margin:1%;
+					}
+				}
+			}
+		}
+		div{
+			div{
+				div{
+					div{
+						ul{
+							li{
+								.bgcolor{
+									&:hover{
+										background-color: pick;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
