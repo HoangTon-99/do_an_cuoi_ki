@@ -1,19 +1,15 @@
-
-main div div ul li {
-  list-style: none;
-  float: left;
-  margin-right: 5px; }
-  main div div ul li a {
+main div .col-md-9 .blog-list {
+  margin-bottom: 1%; }
+  main div .col-md-9 .blog-list .row .card {
+    margin-right: 2%;
+    margin-bottom: 1%; }
+main div .col-md-3 .menu {
+  box-shadow: #265077 0px 5px 40px 5px; }
+  main div .col-md-3 .menu .menu-items1 div ul li a {
     text-decoration: none; }
-    main div div ul li a:hover {
+    main div .col-md-3 .menu .menu-items1 div ul li a:hover {
       color: pink; }
-main div div div div div {
-  margin: 1%; }
-main div div div div div ul li .bgcolor:hover {
-  background-color: pink; }
-.menu{
-  box-shadow: 0px 5px 40px 5px #265077;
-  background-color: #265077;
-}
+  main div .col-md-3 .menu .menu-items2 div ul li a:hover {
+    background-color: pink; }
 
 /*# sourceMappingURL=tintuc.css.map */
