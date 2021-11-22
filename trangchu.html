@@ -8,10 +8,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="stylesheet" href="./css/reponsives.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -68,13 +70,13 @@
         <div class="container-fluid p-0 m-0">
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="carousel-item active" data-bs-interval="4000">
                         <img src="./assets/img/bigslider1.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="./assets/img/bigslider2.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="./assets/img/bigslider3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
@@ -137,7 +139,7 @@
                         for</p>
                 </div>
                 <div class="row d-flex justify-content-around">
-                    <div class="col-md-12 col-lg-5 p-0 m-0">
+                    <div class="col-md-12 col-lg-5 p-0 mb-4">
                         <div class="img__left position-relative">
                             <img src="./assets/img/main1.png" class="img-fluid w-100" alt="">
                             <div class="img__content position-absolute">
@@ -158,7 +160,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-5 p-0 m-0">
+                    <div class="col-md-12 col-lg-5 p-0 mb-4">
                         <div class="img__right position-relative">
                             <img src="./assets/img/main2.png" class="img-fluid w-100" alt="">
                             <div class="img__content position-absolute">
@@ -182,32 +184,201 @@
                 </div>
             </div>
         </div>
+        <div class="block3">
+            <div class="container-lg">
+                <div class="OurProducts">
+                    <h2 class="OurProducts__title">Our Products</h2>
+                    <div class="block3__menu d-flex justify-content-between">
+                        <div class="block3__menu--left">
+                            <ul class="OurProducts__content d-flex">
+                                <li class="OurProducts__item">
+                                    <a class="OurProducts__item--a" href="#">BEST SELLING</a>
+                                </li>
+                                <li class="OurProducts__item">
+                                    <a class="OurProducts__item--a" href="#">NEW ARRIVALS</a>
+                                </li>
+                                <li class="OurProducts__item">
+                                    <a class="OurProducts__item--a" href="#">EDITOR'S PICK</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="block3__menu--right">
+                            <ul class="OurProducts__content d-flex">
+                                <li class="OurProducts__item--right">
+                                    <a class="OurProducts__item--a me-3" href="#">VIEW ALL PRODUCT</a>
+                                </li>
+                                <li class="OurProducts__item--right">
+                                    <a class="OurProducts__item--a" href="#"><i class="fas fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel owl-theme mb-5">
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main4.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main5.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main6.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main3.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main4.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main5.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__img">
+                            <img src="./assets/img/main6.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+        </div>
+        <div class="block4">
+            <div class="container-md">
+                <div class="OurJournal">
+                    <h2 class="block4__title">Our Journal</h2>
+                    <div class="d-flex justify-content-between">
+                        <p class="OurJournal--p">Alway catch up the fashion trending, discover lookbook & more </p>
+                        <div class="block4__menu--right">
+                            <ul class="OurJournal__content d-flex">
+                                <li class="OurJournal__item--right">
+                                    <a class="OurJournal__item--a me-3" href="#">All articles</a>
+                                </li>
+                                <li class="OurJournal__item--right">
+                                    <a class="OurJournal__item--a" href="#"><i class="fas fa-angle-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block4__img">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/img/main7.png" class="img-fluid" alt="">
+                            <div class="block4__img--content">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <h1>25</h1>
+                                        <p class="block4__time">DECEMBER</p>
+                                        <p class="block4__time">2022</p>
+                                    </div>
+                                    <div class="col-9">
+                                        <p><a class="block4__img--text" href="">How to choose a sneakers suit for any your style look impressive</a></p>
+                                        <p>
+                                            <a class="block4__img--text2" href="">INSPIRATION</a>/
+                                            <a class="block4__img--text3" href="#">By Admin</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/img/main8.png" class="img-fluid" alt="">
+                            <div class="block4__img--content">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <h1>20</h1>
+                                        <p class="block4__time">DECEMBER</p>
+                                        <p class="block4__time">2022</p>
+                                    </div>
+                                    <div class="col-9">
+                                        <p><a class="block4__img--text" href="">Your checkout now faster at our store with Google Pay</a></p>
+                                        <p>
+                                            <a class="block4__img--text2" href="">TIPS & TRICKS</a>/
+                                            <a class="block4__img--text3" href="#"> By Logan Cee</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="block5">
+            <div class="container-md">
+                <div class="follow">
+                    <h4 class="follow__title">follow our instagram</h4>
+                    <p>
+                        Our official instagram
+                        <a class="follow__style--a" href="#">@durotan</a>
+                        or bandtags
+                        <a class="follow__style--a" href="#">#durotan.clothing</a>
+                    </p>
+                </div>
+                <div class="follow__image">
+                    <div class="row">
+                        <div class="col-6 col-lg-3">
+                            <div class="follow__image--main position-relative">
+                                <img src="./assets/img/smallmain1.png" alt="Avatar" class="imagefl img-fluid">
+                                <div class="follow__image--hover position-absolute">
+                                  <img src="./assets/img/intagram.png"  class="img-fluid imagefl--hover" alt="">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="follow__image--main position-relative">
+                                <img src="./assets/img/smallmain2.png" alt="Avatar" class="imagefl img-fluid">
+                                <div class="follow__image--hover position-absolute">
+                                  <img src="./assets/img/intagram.png"  class="img-fluid imagefl--hover" alt="">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="follow__image--main position-relative">
+                                <img src="./assets/img/smallmain3.png" alt="Avatar" class="imagefl img-fluid">
+                                <div class="follow__image--hover position-absolute">
+                                  <img src="./assets/img/intagram.png"  class="img-fluid imagefl--hover" alt="">
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="follow__image--main position-relative">
+                                <img src="./assets/img/smallmain4.png" alt="Avatar" class="imagefl img-fluid">
+                                <div class="follow__image--hover position-absolute">
+                                  <img src="./assets/img/intagram.png"  class="img-fluid imagefl--hover" alt="">
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <script>
-        $(document).ready(function () {
-            $('#toggle').click(function () {
-                $('menu').slideToggle();
-            });
-        })
-    </script>
+
+
+    <script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>
-<!-- <script>
-    const burgerMenu = document.getElementById("burger");
-const navbarMenu = document.getElementById("menu");
-
-// Initialize Responsive Navbar Menu
-burgerMenu.addEventListener("click", () => {
-	burgerMenu.classList.toggle("active");
-	navbarMenu.classList.toggle("active");
-
-	if (navbarMenu.classList.contains("active")) {
-		navbarMenu.style.maxHeight = navbarMenu.scrollHeight + "px";
-	} else {
-		navbarMenu.removeAttribute("style");
-	}
-});
-</script> -->
-<script type="text/javascript" src="./node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
