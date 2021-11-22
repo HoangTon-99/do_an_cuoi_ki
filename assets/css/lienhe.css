@@ -1,6 +1,22 @@
-main div div div {
-  margin-left: 1%; }
-main div div div div ul li {
-  list-style: none; }
+main .container .row .col-sm-5 {
+  border: 2px solid #a7a3a1;
+  border-top: 7px solid red;
+  border-radius: 5px;
+  margin-right: 1%;
+  margin-bottom: 1%; }
+main .container .row .col-sm-6 .row .adress-blog {
+  border: 2px solid #a7a3a1;
+  border-top: 7px solid red;
+  border-radius: 5px;
+  margin-bottom: 3%; }
+  main .container .row .col-sm-6 .row .adress-blog .blog-list ul li {
+    list-style: none; }
+main .container .row .col-sm-6 .row .map-blog {
+  border: 2px solid #a7a3a1;
+  border-top: 7px solid red;
+  border-radius: 5px;
+  height: 350px; }
+  main .container .row .col-sm-6 .row .map-blog div iframe {
+    margin-top: 5%; }
 
 /*# sourceMappingURL=lienhe.css.map */

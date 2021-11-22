@@ -1,18 +1,41 @@
 main{
-	div{
-	div{
-div{
-	margin-left:1%;
+	.container{
+		.row{
+			.col-sm-5{
+				border: 2px solid #a7a3a1;
+				border-top: 7px solid red;
+				border-radius: 5px;
+				margin-right: 1%;
+				margin-bottom: 1%;
+			}
+			.col-sm-6{
+				.row{
+					.adress-blog{
+						border: 2px solid #a7a3a1;
+						border-top: 7px solid red;
+						border-radius: 5px;
+						margin-bottom: 3%;
+						.blog-list{
+							ul{
+								li{
+									list-style: none;
+								}
+							}
+						}
+					}
+					.map-blog{
+						border: 2px solid #a7a3a1;
+						border-top: 7px solid red;
+						border-radius: 5px;
+						height: 350px;
+						div{
+							iframe{
+								margin-top: 5%;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
-div{
-		div{
-ul{
-	li{
-	list-style:none;
-}
-}
-}
-}
-}
-}
 }
