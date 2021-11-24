@@ -4,7 +4,7 @@ main div .col-md-9 .blog-list {
     margin-right: 2%;
     margin-bottom: 1%; }
 main div .col-md-3 .menu {
-  box-shadow: #265077 0px 5px 40px 5px; }
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1); }
   main div .col-md-3 .menu .menu-items1 div ul li a {
     text-decoration: none; }
     main div .col-md-3 .menu .menu-items1 div ul li a:hover {
