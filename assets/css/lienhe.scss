@@ -2,16 +2,28 @@ main{
 	.container{
 		.row{
 			.col-sm-5{
-				border: 2px solid #a7a3a1;
-				border-top: 7px solid red;
-				border-radius: 5px;
-				margin-right: 1%;
-				margin-bottom: 1%;
+				
+				margin-top: 30px;
+				margin-right: 30px;
+				background-color: white;
+				.form{
+					padding: 15px;
+					border-top: 7px solid red;
+					border-radius: 5px;
+					box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
+					button{
+						margin: 0 auto;
+						text-align: center;
+						display: block;
+					}
+				}
 			}
 			.col-sm-6{
+				margin-top: 30px;
 				.row{
 					.adress-blog{
-						border: 2px solid #a7a3a1;
+						padding: 15px;
+						box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
 						border-top: 7px solid red;
 						border-radius: 5px;
 						margin-bottom: 3%;
@@ -24,7 +36,8 @@ main{
 						}
 					}
 					.map-blog{
-						border: 2px solid #a7a3a1;
+						padding: 15px;
+						box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.1);
 						border-top: 7px solid red;
 						border-radius: 5px;
 						height: 350px;
