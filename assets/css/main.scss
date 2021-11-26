@@ -7,11 +7,14 @@
     font-family: myFont1;
     src: url("../font/Marcellus-Regular.ttf");
 }
-*::before,*::after{
+
+*::before,
+*::after {
     padding: 0;
     margin: 0;
 
 }
+
 $color: #928656;
 $color-p: #666666;
 $mobile-width: 480px;
@@ -21,67 +24,185 @@ $desktop-width: 1024px;
 * {
     box-sizing: border-box;
     font-family: myFont1;
+    margin: 0;
+    padding: 0;
 }
 
 hr {
     color: #c4c3bd;
 }
 
-header {
-    min-height: 100px;
-    background-color: #ececec;
-    max-width: 100%;
-
-    .logo {
-        margin-top: 20px;
-
-        .logo--style {
-            font-size: 30px;
-            text-decoration: none;
-            color: #000;
-            line-height: 100px;
-            margin-top: 16px;
-            font-family: myFont1;
-        }
+header{
+    .content__header {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+        overflow-x: hidden;
     }
-
-    .menu_icon {
-        float: right;
+    .navbar__header {
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        padding: 25px 0;
+        background: #ececec;
+        transition: all 0.3s ease;
+        
+    
     }
-
-    hr {
-        margin-left: 50px;
+    
+    .navbar__header.sticky {
+        background: #ececec;
+        padding: 10px;
     }
-}
-
-@media only screen and (max-width: 768px) {
+    
+    
+    .navbar__header .content__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    .navbar__header .logo a {
+        color: #000;
+        font-size: 30px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    .navbar__header .menu-list {
+        display: flex;
+    }
+    
+    .menu-list li {
+        list-style: none;
+    }
+    
+    .menu-list li a {
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        font-family: myFont2;
+    
+    }
+    
+    .menu-list li a:hover {
+        color: cyan;
+    }
+    
+    
+    .icon {
+        color: #000;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 0 4px;
+    }
+    
     .menu_icon {
         display: none;
     }
-
-    .navbar-toggler {
-        border: none;
+    
+    .icon.cannel-btn {
+        position: absolute;
+        right: 20px;
+        top: 20px;
     }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-        outline: none;
+    
+    .icon__menu {
+        display: flex;
+        justify-content: end;
     }
-
-    header hr {
-        display: none;
-    }
-
-    .block2 {
-        .container-md {
-            min-width: 100%;
+    @media (max-width: 768px) {
+        body.disabledScroll{
+            overflow: hidden;
         }
-
-        .img__content {}
+        .icon {
+            display: flex;
+        }
+    
+        .icon.hide {
+            display: none;
+        }
+    
+        .navbar__header .menu-list {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            height: 100vh;
+            width: 100%;
+            max-width: 400px;
+            background: #ccc;
+            display: block;
+            padding: 40px 0;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-family: myFont2;
+        }
+    
+        .navbar__header .menu-list.active {
+            left: 0%;
+        }
+    
+        
+    .navbar__header .menu-list li {
+            margin-top: 45px;
+        }
+    
+        
+    .navbar__header .menu-list li a {
+            font-size: 23px;
+        }
+    }
+    @media (max-width: 576px) {
+        body.disabledScroll{
+            overflow: hidden;
+        }
+        .icon {
+            display: flex;
+        }
+    
+        .icon.hide {
+            display: none;
+        }
+    
+        .navbar__header .menu-list {
+            position: fixed;
+            top: 0;
+            left: -100%;
+            height: 100vh;
+            width: 100%;
+            max-width: 400px;
+            background: #ccc;
+            display: block;
+            padding: 40px 0;
+            text-align: center;
+            transition: all 0.3s ease;
+            font-family: myFont2;
+        }
+    
+        .navbar__header .menu-list.active {
+            left: 0%;
+        }
+    
+        
+    .navbar__header .menu-list li {
+            margin-top: 45px;
+        }
+    
+        
+    .navbar__header .menu-list li a {
+            font-size: 23px;
+        }
     }
 }
+
+
 
 .slider {
+    padding-top: 100px;
     background-color: #ececec;
 
     hr {
@@ -95,9 +216,7 @@ header {
 main {
     .block1 {
         .block1_header {
-
             left: 8%;
-
             .block1_header--list {
                 padding-left: 0;
                 margin: 30px 0;
@@ -107,6 +226,28 @@ main {
                     margin-right: 40px;
                 }
 
+            }
+        }
+        .block1__about{
+            margin-top: 80px;
+            .block1__about--title{
+
+            }
+            .block1__about--p{
+                margin-bottom: 60px;
+            }
+            .about__1--h4{
+                text-transform: uppercase;
+                font-family: myFont2;
+                
+            }
+            .about__1--p{
+                font-family: myFont2;
+                color: $color-p;
+                font-size: 12px;
+            }
+            .about__2,.about__3{
+                margin-top: 40px;
             }
         }
 
@@ -349,40 +490,49 @@ main {
                     transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
                     text-align: center;
-                    &:hover{
+
+                    &:hover {
                         opacity: 1;
                     }
                 }
-                &:hover .imagefl{
+
+                &:hover .imagefl {
                     opacity: 0.6;
                 }
             }
         }
     }
 }
-footer{
-    .logo{
+
+footer {
+    .logo {
         margin-bottom: 30px;
     }
+
     margin-top: 80px;
-    .footer__title{
-        margin-bottom: 30px;  
+
+    .footer__title {
+        margin-bottom: 30px;
         font-family: myFont2;
-        text-transform: uppercase;  
+        text-transform: uppercase;
     }
-    .footer__contact p{
+
+    .footer__contact p {
         font-family: myFont2;
         color: $color-p;
-        a{
-        color: $color-p;
+
+        a {
+            color: $color-p;
             padding: 10px;
-            :hover{
+
+            :hover {
                 color: $color;
             }
         }
     }
-    .footer__link{
-        .footer__link--a{
+
+    .footer__link {
+        .footer__link--a {
             display: table;
             position: relative;
             text-decoration: none;
@@ -391,7 +541,8 @@ footer{
             letter-spacing: 0.5;
             padding: 0px;
             margin-bottom: 10px;
-            &::after{
+
+            &::after {
                 content: "";
                 position: absolute;
                 background-color: #000;
@@ -401,18 +552,21 @@ footer{
                 bottom: -2px;
                 transition: all 0.3s;
             }
-            &:hover::after{
+
+            &:hover::after {
                 width: 100%;
                 transition: all 0.3s;
             }
         }
     }
-    .footer__form{
-        p{
-        font-family: myFont2;
+
+    .footer__form {
+        p {
+            font-family: myFont2;
             color: #999999;
         }
-        .form-control{
+
+        .form-control {
             font-family: myFont2;
             outline: none;
             box-shadow: none;
@@ -421,21 +575,25 @@ footer{
             padding: 6px 8px;
 
         }
-        .form--style{
-            a{
+
+        .form--style {
+            a {
                 font-family: myFont2;
                 font-size: 12px;
                 color: #000;
-                &:hover{
+
+                &:hover {
                     text-decoration: underline;
                     font-weight: bold;
                 }
             }
-            p{
+
+            p {
                 font-size: 12px;
                 color: #999999;
             }
-            .btn__subscribe{
+
+            .btn__subscribe {
                 font-family: myFont2;
                 padding: 10px 20px;
                 background-color: $color;
@@ -443,6 +601,6 @@ footer{
                 border-radius: 0;
             }
         }
-        
+
     }
 }
