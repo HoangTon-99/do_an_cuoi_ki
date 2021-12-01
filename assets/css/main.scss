@@ -90,7 +90,7 @@ header{
     }
     
     .menu-list li a:hover {
-        color: cyan;
+        color: #928656;
     }
     
     
@@ -505,6 +505,7 @@ main {
                     height: auto;
                     transition: .5s ease;
                     backface-visibility: hidden;
+                    background-color: red;
                 }
 
                 .follow__image--hover {
@@ -515,14 +516,18 @@ main {
                     transform: translate(-50%, -50%);
                     -ms-transform: translate(-50%, -50%);
                     text-align: center;
-
+                    cursor: pointer;
+                    
                     &:hover {
                         opacity: 1;
+                        
+                        
                     }
                 }
 
                 &:hover .imagefl {
-                    opacity: 0.6;
+                    mix-blend-mode: darken;
+                    cursor: pointer;
                 }
             }
         }
