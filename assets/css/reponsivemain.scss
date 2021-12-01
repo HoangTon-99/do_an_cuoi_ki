@@ -1,0 +1,368 @@
+@media (max-width: 768px) {
+    .icon {
+        display: block;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: #222;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .navbar {
+        .menu-list.active {
+            left: 0%;
+        }
+
+        .menu-list li {
+            margin-top: 45px;
+        }
+
+        .menu-list li a {
+            font-size: 23px;
+        }
+    }
+
+}
+
+main {
+    @media (max-width: 767px) {
+        .pd__mobile {
+            padding-right: 0;
+            padding-left: 0;
+
+        }
+
+        .mg__mobile {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .block1 {
+            .block1_header {
+                .block1_header--list {
+                    padding-left: 0;
+                    margin: 16px 0;
+                }
+            }
+
+            .block1__about {
+                margin-top: 20px;
+
+                .block1__about--title {
+                    font-size: 24px;
+                }
+
+                .block1__about--p {
+                    font-size: 12px;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .block1__about--list {
+                margin-top: 0px;
+                display: none;
+
+            }
+
+
+        }
+
+        .block2 {
+            padding-bottom: 12px;
+
+            .block2_title {
+                margin-left: 0px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+
+                .block2_title--h2 {
+                    font-size: 24px;
+                }
+
+                .block2_title--p {
+                    font-size: 12px;
+
+                }
+            }
+
+            .img__content {
+                top: 8%;
+                left: 5%;
+
+                .img__content--title {
+                    font-size: 36px;
+                    text-transform: uppercase;
+                    margin-bottom: 12px;
+                }
+
+                .img__content--p {
+                    font-size: 12px;
+                }
+
+                .img__content--button {
+                    margin-top: 80px;
+                    min-width: 30px;
+
+                    .button__main {
+                        font-size: 12px;
+                    }
+
+
+                }
+            }
+
+        }
+
+        .block3 {
+            padding-top: 20px;
+
+            .OurProducts {
+                max-width: 100%;
+                margin-left: 0;
+                margin-bottom: 20px;
+                margin-right: 0;
+
+                .block3__menu {
+                    font-size: 12px;
+
+                    .block3__menu--left {
+                        .OurProducts__content {
+                            padding-left: 0;
+
+                            .OurProducts__item {
+                                list-style: none;
+                                margin-right: 40px;
+
+                                .OurProducts__item--a {
+                                    text-decoration: none;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .block4 {
+            margin: 12px 0;
+            padding-top: 0;
+
+            .OurJournal {
+                padding-bottom: 12px;
+
+                .OurJournal--p {
+                    font-size: 14px;
+                }
+
+                .block4__menu--right {
+                    .OurJournal__item--right {
+
+                        .OurJournal__item--a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .block5 {
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+            .follow{
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+main {
+    @media (min-width: 768px) and (max-width:1023px) {
+        .block1 {
+            .block1_header--list {
+                padding-left: 0;
+                margin: 20px 0;
+
+            }
+
+            .block1__about {
+                margin-top: 10px;
+
+                .block1__about--p {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                }
+
+                .about__2,
+                .about__3 {
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .block2 {
+            .block2_title {
+                margin-left: 0px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+
+                .block2_title--h2 {
+                    font-size: 32px;
+                }
+
+                .block2_title--p {
+                    font-size: 16px;
+
+                }
+            }
+
+            .img__content {
+                top: 8%;
+                left: 5%;
+
+                .img__content--title {
+                    font-size: 32px;
+                    text-transform: uppercase;
+                    margin-bottom: 12px;
+                }
+
+                .img__content--p {
+                    font-size: 12px;
+                }
+
+                .img__content--button {
+                    margin-top: 20px;
+                    min-width: 30px;
+
+                    .button__main {
+                        font-size: 12px;
+                    }
+
+                }
+
+            }
+        }
+
+        .block3 {
+            padding-top: 20px;
+
+            .OurProducts {
+                max-width: 100%;
+                margin-left: 0;
+                margin-bottom: 20px;
+                margin-right: 0;
+
+                .block3__menu {
+                    font-size: 14px;
+
+                    .block3__menu--left {
+                        .OurProducts__content {
+                            padding-left: 0;
+
+                            .OurProducts__item {
+                                list-style: none;
+                                margin-right: 40px;
+
+                                .OurProducts__item--a {
+                                    text-decoration: none;
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .block4 {
+            padding-top: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+
+            .OurJournal {
+                padding-bottom: 8px;
+
+                .OurJournal--p {
+                    font-size: 16px;
+                }
+
+                .OurJournal__item--a {
+                    font-size: 14px;
+                }
+            }
+
+            .block4__img {
+                margin-bottom: 8px;
+
+                .block4__img--text {
+                    font-size: 21px;
+                }
+            }
+        }
+
+        .block5 {
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+    }
+}
+
+// main {
+//     @media (max-width: 576px) {
+//         .block1 {
+
+//             .block1__about {
+//                 margin-top: 0px;
+
+//                 .about__1 {
+//                     margin-top: 4px;
+//                 }
+
+//                 .block1__about--title {}
+
+//                 .block1__about--p {
+//                     margin-bottom: 0;
+//                 }
+
+//                 .about__2,
+//                 .about__3 {
+//                     padding-top: 0px;
+//                 }
+
+//                 .about__1--h4 {
+//                     margin-bottom: 2px;
+
+//                 }
+//             }
+//         }
+//         .block2{
+//             .container{
+
+//             }
+//         }
+//         .block3{
+
+//         }
+//     }
+// }
