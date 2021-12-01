@@ -55,7 +55,7 @@ header .menu-list li a {
   transition: all 0.3s ease;
   font-family: myFont2; }
 header .menu-list li a:hover {
-  color: cyan; }
+  color: #928656; }
 header .icon {
   color: #000;
   font-size: 20px;
@@ -310,7 +310,8 @@ main .block5 {
     width: 100%;
     height: auto;
     transition: .5s ease;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    background-color: red; }
   main .block5 .follow__image .follow__image--main .follow__image--hover {
     transition: .5s ease;
     opacity: 0;
@@ -318,11 +319,13 @@ main .block5 {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
     main .block5 .follow__image .follow__image--main .follow__image--hover:hover {
       opacity: 1; }
   main .block5 .follow__image .follow__image--main:hover .imagefl {
-    opacity: 0.6; }
+    mix-blend-mode: darken;
+    cursor: pointer; }
 
 footer {
   margin-top: 80px; }
