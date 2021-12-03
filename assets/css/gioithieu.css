@@ -104,8 +104,9 @@ header .icon__menu {
     font-size: 23px; } }
 
 main {
-  margin-top: 20%; }
+  margin-top: 10%; 
+}
   main div div .menu {
-    box-shadow: 0px 5px 15px 5px #265077; }
-
+    box-shadow: 0px 5px 15px 5px #265077; 
+  }
 /*# sourceMappingURL=gioithieu.css.map */
