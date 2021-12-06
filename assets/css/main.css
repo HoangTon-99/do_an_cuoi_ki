@@ -23,7 +23,7 @@ hr {
 header {
   height: 80px; }
   header .content__header {
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 30px;
     overflow-x: hidden;
@@ -31,7 +31,7 @@ header {
   header .navbar__header {
     position: fixed;
     z-index: 100;
-    width: 100vw;
+    width: 100%;
     background: #ececec;
     transition: all 0.3s ease; }
   header .navbar__header.sticky {
@@ -112,7 +112,7 @@ header {
       left: -100%;
       height: 100vh;
       width: 100%;
-      max-width: 300px;
+      max-width: 400px;
       background: #ccc;
       display: block;
       padding: 30px 0;

@@ -37,7 +37,7 @@ hr {
 header {
     height: 80px;
     .content__header {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 30px;
         overflow-x: hidden;
@@ -47,7 +47,7 @@ header {
     .navbar__header {
         position: fixed;
         z-index: 100;
-        width: 100vw;
+        width: 100%;
         background: #ececec;
         transition: all 0.3s ease;
     }
@@ -173,7 +173,7 @@ header {
             left: -100%;
             height: 100vh;
             width: 100%;
-            max-width: 300px;
+            max-width: 400px;
             background: #ccc;
             display: block;
             padding: 30px 0;
@@ -493,10 +493,6 @@ main {
                 text-decoration: underline;
                 color: #928656;
             }
-        }
-    
-        .img__slider--p:hover {
-            
         }
         hr {
             margin: 0 60px;
