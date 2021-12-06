@@ -1,3 +1,14 @@
+@font-face {
+  font-family: myFont2;
+  src: url("../font/Jost-Regular.ttf"); }
+@font-face {
+  font-family: myFont1;
+  src: url("../font/Marcellus-Regular.ttf"); }
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; }
+
 header .content__header {
   max-width: 100%;
   margin: 0 auto;
@@ -118,5 +129,105 @@ main {
         color: pink; }
     main div .col-md-3 .menu .menu-items2 div ul li a:hover {
       background-color: pink; }
+
+footer {
+  margin-top: 80px; }
+  footer .logo__footer {
+    margin-bottom: 30px; }
+  footer .footer__title {
+    margin-bottom: 30px;
+    font-family: myFont2;
+    text-transform: uppercase; }
+  footer .footer__contact p {
+    font-family: myFont2;
+    color: #666666; }
+    footer .footer__contact p a {
+      color: #666666;
+      padding: 10px; }
+      footer .footer__contact p a :hover {
+        color: #928656; }
+  footer .footer__link .footer__link--a {
+    display: table;
+    position: relative;
+    text-decoration: none;
+    font-family: myFont2;
+    color: #666666;
+    letter-spacing: 0.5;
+    padding: 0px;
+    margin-bottom: 10px; }
+    footer .footer__link .footer__link--a::after {
+      content: "";
+      position: absolute;
+      background-color: #000;
+      height: 1px;
+      width: 0;
+      left: 0;
+      bottom: -2px;
+      transition: all 0.3s; }
+    footer .footer__link .footer__link--a:hover::after {
+      width: 100%;
+      transition: all 0.3s; }
+  footer .footer__form p {
+    font-family: myFont2;
+    color: #999999; }
+  footer .footer__form .form-control {
+    font-family: myFont2;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 12px;
+    padding: 6px 8px; }
+  footer .footer__form .form--style a {
+    font-family: myFont2;
+    font-size: 12px;
+    color: #000; }
+    footer .footer__form .form--style a:hover {
+      text-decoration: underline;
+      font-weight: bold; }
+  footer .footer__form .form--style p {
+    font-size: 12px;
+    color: #999999; }
+  footer .footer__form .form--style .btn__subscribe {
+    font-family: myFont2;
+    padding: 10px 20px;
+    background-color: #928656;
+    color: #fff;
+    border-radius: 0; }
+  @media (max-width: 767px) {
+    footer {
+      margin-top: 30px; }
+      footer .logo__footer {
+        margin-bottom: 12px; }
+      footer .footer__title {
+        margin-bottom: 12px;
+        font-family: myFont2;
+        text-transform: uppercase; }
+      footer .footer__form {
+        margin-bottom: 20px; }
+        footer .footer__form h4 {
+          margin-top: 12px; }
+        footer .footer__form .form--style {
+          display: flex; }
+        footer .footer__form .form-control {
+          width: 80%;
+          margin: 0; }
+        footer .footer__form p {
+          display: none; }
+        footer .footer__form .btn__subscribe {
+          padding: 0 12px; } }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    footer .footer__form {
+      margin-bottom: 20px; }
+      footer .footer__form h4 {
+        margin-top: 12px; }
+      footer .footer__form .form--style {
+        display: flex; }
+      footer .footer__form .form-control {
+        width: 80%;
+        margin: 0; }
+      footer .footer__form p {
+        display: none; }
+      footer .footer__form .btn__subscribe {
+        padding: 0 12px; } }
 
 /*# sourceMappingURL=tintuc.css.map */

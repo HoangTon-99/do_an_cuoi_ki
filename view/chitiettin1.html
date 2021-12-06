@@ -6,6 +6,16 @@
 	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/tintuc.css">
+    <style>
+		@font-face {
+			font-family: myFirstFont;
+			src: url(../font/Marcellus-Regular.ttf);
+		 }
+		 
+		 * {
+			font-family: myFirstFont;
+		 }
+	</style>
 </head>
 <body>
 	<header>
@@ -21,7 +31,7 @@
                                 <div class="icon menu_icon cannel-btn">
                                     <i class="fas fa-times"></i>
                                 </div>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="../index.html">Home</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Features</a></li>
@@ -50,7 +60,7 @@
 				<div class="col-md-12 clearfix">
 					<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
 					  <ol class="breadcrumb">
-					    <li class="breadcrumb-item"><a href="./index.html">Trang chủ</a></li>
+					    <li class="breadcrumb-item"><a href="../index.html">Trang chủ</a></li>
 					    <li class="breadcrumb-item active" aria-current="page"><a href="tintuc.html">Tin tức></a></li>
 					    <li class="breadcrumb-item active" aria-current="page">Mặc gì trong ngày trời nồm ẩm</li>
 					  </ol>
@@ -146,6 +156,63 @@
 			</div>
 		</div>
 	</main>
+	<hr>
+	<footer>
+        <div class="container-md">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="logo__footer">DUROTAN</h2>
+                    <div class="footer__contact">
+
+                        <p class="footer__address">268 Elizaberth Ave Str, Brooklyn,<br>CA, 90025</p>
+                        <p class="footer__phone">+0082 561 43 34 </p>
+                        <p class="footer__email">support@durotan.com</p>
+                        <p class="footer__icon">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="footer__link">
+                        <h4 class="footer__title">FAQS</h4>
+                        <a class="footer__link--a" href="#">Information</a>
+                        <a class="footer__link--a" href="#">Payment</a>
+                        <a class="footer__link--a" href="#">Shipping</a>
+                        <a class="footer__link--a" href="#">Returns</a>
+                        <a class="footer__link--a" href="#">Gift Card</a>
+                        <a class="footer__link--a" href="#">Guest purchase</a>
+                        <a class="footer__link--a" href="#">Electronic receipt</a>
+
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="footer__link">
+                        <h4 class="footer__title">COMPANY</h4>
+                        <a class="footer__link--a" href="#">About Durotan</a>
+                        <a class="footer__link--a" href="#">Contact</a>
+                        <a class="footer__link--a" href="#">Careers</a>
+                        <a class="footer__link--a" href="#">Our Journals</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="footer__form">
+                        <h4 class="footer__title">newsletter</h4>
+                        <p>Be the first to get the latest news about trends, promotions and much more!</p>
+                        <form action="#" method="post" class="form--style">
+                            <input type="text" class="form-control" placeholder="Enter your email address"
+                                aria-label="First name">
+                            <p>By subscribing, you accept the <a href="#">Privacy Policy</a></p>
+                            <button type="submit" class="btn btn__subscribe">SUBSCRIBE</button>
+                        </form>
+					</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
