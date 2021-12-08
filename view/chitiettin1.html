@@ -6,16 +6,8 @@
 	<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/tintuc.css">
-    <style>
-		@font-face {
-			font-family: myFirstFont;
-			src: url(../font/Marcellus-Regular.ttf);
-		 }
-		 
-		 * {
-			font-family: myFirstFont;
-		 }
-	</style>
+    <link rel="stylesheet" type="text/css" href="../assets/css/reponsivemain.css">
+
 </head>
 <body>
 	<header>
@@ -30,11 +22,12 @@
                             <ul class="menu-list">
                                 <div class="icon menu_icon cannel-btn">
                                     <i class="fas fa-times"></i>
-									<li><a href="../index.html">Home</a></li>
-									<li><a href="#">About</a></li>
-									<li><a href=".tintuc.html">Blog</a></li>
-									<li><a href=".gioithieu.html">Introduce</a></li>
-									<li><a href=".lienhe.html">Contact</a></li>
+                                </div>
+								<li><a href="../index.html">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="./tintuc.html">Blog</a></li>
+                                <li><a href="./gioithieu.html">Introduce</a></li>
+                                <li><a href="./lienhe.html">Contact</a></li>
                             </ul>
                             <ul class="language">
                                 <li><a href="#">EN</a></li>
@@ -42,17 +35,26 @@
                             </ul>
                             <div class="icon__menu">
                                 <div class="icon icon_search search-btn">
-                                    <i class="fas fa-search"></i>
+                                    <a href="#">
+                                        <img src="../assets/img/search__icon.png" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="icon icon_user shop-btn">
+                                    <a href="#">
+                                        <img src="../assets/img/user__icon.png" alt="" class="img-fluid">
+                                    </a>
                                 </div>
                                 <div class="icon icon_shop shop-btn">
-                                    <i class="fas fa-shopping-cart"></i>
+                                    <a href="#">
+                                        <img src="../assets/img/shop__icon.png" alt="" class="img-fluid">
+                                    </a>
                                 </div>
                                 <div class="icon menu_icon menu-btn">
                                     <i class="fas fa-bars"></i>
                                 </div>
                             </div>
                         </div>
-                        <hr class="menu__hr">
+                      
                     </nav>
                 </div>
             </div>
