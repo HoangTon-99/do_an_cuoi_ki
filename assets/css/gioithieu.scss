@@ -1,0 +1,39 @@
+@font-face {
+    font-family: myFont2;
+    src: url('../font/Jost-Regular.ttf');
+}
+
+@font-face {
+    font-family: myFont1;
+    src: url("../font/Marcellus-Regular.ttf");
+}
+
+*{
+    font-family: myFont1;
+}
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+
+}
+
+$color: #928656;
+$color-p: #666666;
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+
+main{
+    margin-top: 10%;
+          div{
+                div{
+                
+                .menu{
+       box-shadow: 0px 5px 15px 5px #265077;
+            }
+        }
+    }
+}

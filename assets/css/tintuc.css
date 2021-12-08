@@ -1,0 +1,31 @@
+@font-face {
+  font-family: myFont2;
+  src: url("../font/Jost-Regular.ttf"); }
+@font-face {
+  font-family: myFont1;
+  src: url("../font/Marcellus-Regular.ttf"); }
+* {
+  font-family: myFont1; }
+
+*::before,
+*::after {
+  padding: 0;
+  margin: 0; }
+
+main {
+  margin-top: 15%; }
+  main div .col-md-9 .blog-list {
+    margin-bottom: 1%; }
+    main div .col-md-9 .blog-list .row .card {
+      margin-right: 2%;
+      margin-bottom: 1%; }
+  main div .col-md-3 .menu {
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1); }
+    main div .col-md-3 .menu .menu-items1 div ul li a {
+      text-decoration: none; }
+      main div .col-md-3 .menu .menu-items1 div ul li a:hover {
+        color: pink; }
+    main div .col-md-3 .menu .menu-items2 div ul li a:hover {
+      background-color: pink; }
+
+/*# sourceMappingURL=tintuc.css.map */
